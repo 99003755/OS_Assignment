@@ -6,6 +6,7 @@ build:
 	gcc sender_5.c -o send2 -lrt
 	gcc rec_5.c -o rec2 -lrt
 	gcc SharedMemory. -o shared -lrt
+	gcc Queue_Sem.c -o Sema -lpthread
 
 
 
