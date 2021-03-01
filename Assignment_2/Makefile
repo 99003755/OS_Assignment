@@ -7,6 +7,7 @@ build:
 	gcc rec_5.c -o rec2 -lrt
 	gcc SharedMemory. -o shared -lrt
 	gcc Queue_Sem.c -o Sema -lpthread
+	gcc Queue_Mutex.c -o mque -lpthread
 
 
 
